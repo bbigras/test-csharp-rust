@@ -1,0 +1,11 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Bruno Bigras <bigras.bruno@gmail.com>"]
+
+[lib]
+# name = "lien"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2"
