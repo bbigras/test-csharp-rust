@@ -5,7 +5,7 @@ namespace csharp
 {
     class Program
     {
-        [DllImport("rust.dll")]
+        [DllImport("rust.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern void test();
 
         static void Main(string[] args)
